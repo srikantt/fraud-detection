@@ -4,6 +4,7 @@ from kfp import compiler
 from kfp import dsl
 from kfp.dsl import InputPath, OutputPath
 from kfp import kubernetes
+import kfp
 
 kubeflow_endpoint = 'https://ds-pipeline-dspa.risk-credit-scoring.svc.cluster.local:8443'
 
